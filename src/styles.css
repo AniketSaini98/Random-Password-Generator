@@ -1,0 +1,208 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+.card {
+  background-color: #24232b;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 400px;
+}
+
+/* h1 {
+  font-size: 24px;
+  margin: 0 0 20px;
+  text-align: center;
+} */
+
+.password-display {
+  border-radius: 6px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.generated-password {
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 700;
+  word-break: break-all;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+.password-options {
+  margin-bottom: 20px;
+}
+
+.num {
+  margin-left: 235px;
+}
+
+label {
+  color: #ffffff;
+  display: block;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+input[type="range"] {
+  width: 100%;
+  margin-top: 24px;
+}
+
+.checkboxes {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  gap: 12px;
+}
+
+button {
+  background-color: #2a8b8b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 12px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.generate-button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+p {
+  color: #ffffff;
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: right;
+}
+
+.password-strength {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Checkbox Styling */
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  cursor: pointer;
+  color: #596677;
+}
+
+.custom-checkbox {
+  display: none;
+}
+
+.checkmark {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+  border: 2px solid #707070;
+  border-radius: 4px;
+  background-color: #23242b;
+  transition: border-color 0.3s, background-color 0.3s;
+}
+
+.custom-checkbox:checked + .checkmark {
+  background-color: #b81458;
+  border-color: #ffffff;
+}
+
+/* Range Input Styling */
+
+input[type="range"] {
+  -webkit-appearance: none;
+  width: 100%;
+  margin: 10px 0;
+  background-color: #0f0f13;
+  border-radius: 6px;
+  height: 7px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #2a8b8b;
+  cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  border: none;
+  border-radius: 50%;
+  background-color: #2a8b8b;
+  cursor: pointer;
+}
+
+/* Copy Button Styling */
+
+button {
+  background-color: #2a8b8b;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: #b81458;
+}
+
+/* Inside your App.css */
+
+.copy-icon {
+  position: absolute;
+  margin-left: 345px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.password-strength {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.red {
+  color: red;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.green {
+  color: green;
+}
+
+.darkgreen {
+  color: darkgreen;
+}
